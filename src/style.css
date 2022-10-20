@@ -1,1 +1,16 @@
 /* styles go here */
+.fieldset:nth-child(n + 2) {
+  margin-top: 20px;
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
+
+.form-field:last-child {
+  margin-bottom: 0;
+}
+
+.btn_submit {
+  margin-top: 10px;
+}
