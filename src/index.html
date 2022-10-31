@@ -93,15 +93,17 @@
           Do you love cats?
           <label>
             <input
-            type="radio"
-            name="love_cats_yes"
+              type="radio"
+              name="love_cats"
+              value="y"
             >
             Yes
           </label>
           <label>
             <input
-            type="radio"
-            name="love_cats_no"
+              type="radio"
+              name="love_cats"
+              value="y"
             >
             No
           </label>
@@ -109,26 +111,23 @@
         <div class="form-field">
           <label for="color">What is your favorite color?</label>
           <input
-          type="color"
-          name="color"
+            type="color"
+            name="color"
           >
         </div>
         <div class="form-field">
           <label for="go_to_bed">What time do you go to bed?</label>
           <input
-          type="time"
-          name="time_go_to_bed"
-          min="00:00:00"
-          max="23:59:59"
-          step="2"
+            type="time"
+            name="time_go_to_bed"
+            min="00:00:00"
+            max="23:59:59"
+            step="2"
           >
         </div>
         <div class="form-field">
           <label for="brand_of_car">What are your favorite brand of cars?</label>
-          <select
-          multiple
-          name="brand_of_car"
-          >
+          <select multiple name="brand_of_car">
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
@@ -137,25 +136,25 @@
         <div class="form-field">
           <label for="go_to_bed">How do you rate our work?</label>
           <input
-          type="range"
-          min="0"
-          max="100"
-          name="rate_work"
-          value="0"
+            type="range"
+            min="0"
+            max="100"
+            name="rate_work"
+            value="0"
           >
         </div>
       </fieldset>
       <fieldset class="fieldset">
         <legend>Additional info:</legend>
         <div class="form-field">
-          <label for="comments">Comments:</label>
-          <textarea
-            name="comments"
-            id="comments"
-            cols="20"
-            rows="2"
-          >
-          </textarea>
+          <label for="comments">Comments:
+            <textarea
+              name="comments"
+              id="comments"
+              cols="20"
+              rows="2"
+            ></textarea>
+          </label>
         </div>
         <div class="form-field">
           <label for="comments">Would you recommend us?</label>
